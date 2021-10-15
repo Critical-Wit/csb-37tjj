@@ -1,0 +1,86 @@
+
+h1#site-title {
+    color: darkred;
+    font-family: verdana;
+    font-size: 60px;
+    font-style: oblique;
+    text-align: center;
+  }
+h1#article-title {
+  font-style: bold;
+}
+
+h2 {color: indigo;
+  font-family: verdana;
+  font-size: 24px;
+  font-style: oblique;
+  margin-left: 38px}
+
+article header p {color: indigo;
+  font-family: verdana;
+  font-size: 24px;
+  text-align: left;}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+  padding-left: 0px;
+  border: 5px solid indigo;
+}
+
+nav ul li {
+  }
+
+nav ul li a {
+  color: MediumVioletRed;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px;
+  bottom-border: 5px solid: indigo;
+  display: block;
+}
+
+nav ul li a:hover {
+  display: block;
+  font-style: italic;
+}
+
+article figure {width: 80%;
+  border: 5px solid black;
+  padding: 5px;
+  }
+
+article figure img {width: 100%;
+margin-bottom: 2.5px;}
+
+article figure figcaption {font-style: oblique;}
+
+article p {background: lightblue;
+  font-family: verdana;
+  text-align: left;
+  width: 525px;
+  border: 10px solid blue;
+  padding: 5px;
+}
+
+article p img {max-width: 40%;
+float: left;
+border: 5px solid blue;
+margin-right: 5px;
+}
+.section-image.even {float: right;
+
+}
+.section-image.odd {float: left;
+
+}
+h3 {padding-top: 10px;}
+
+.HeadingCaption {
+  color: indigo;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;}
